@@ -1,48 +1,48 @@
 * {
-  ukuran kotak: kotak batas;
+  box-sizing: border-box;
 }
 
-tubuh {
+body {
   margin: 0;
   font-family: "Lucida Grande";
 }
 
-Sebuah {
-  teks-dekorasi: tidak ada;
+a {
+  text-decoration: none;
 }
 
-.bersih {
-  jelas: kiri;
+.clear {
+  clear: left;
 }
 
 .container {
-  lebar maks: 1170px;
+  max-width: 1170px;
   padding: 0 15px;
-  margin: 0 otomatis;
+  margin: 0 auto;
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url (https://prog-8.com/images/html/advanced/top_en.png);
-  ukuran latar belakang: penutup;
-  warna putih;
-  perataan teks: tengah;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
 .top-wrapper h1 {
-  opacity: 0,7;
-  ukuran font: 45px;
-  spasi huruf: 5px;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
   margin-bottom: 10px;
 }
 
 .top-wrapper p {
-  opacity: 0,7;
+  opacity: 0.7;
   margin-bottom: 3px;
 }
 
 .btn-wrapper {
-  perataan teks: tengah;
+  text-align: center;
   margin: 20px 0;
 }
 
@@ -50,29 +50,29 @@ Sebuah {
   margin: 10px 0;
 }
 
-.Daftar {
-  warna latar: # 239b76;
+.signup {
+  background-color: #239b76;
 }
 
 .facebook {
-  warna latar: # 3b5998;
+  background-color: #3b5998;
   margin-right: 10px;
 }
 
-.Indonesia {
-  warna latar: # 55acee;
+.twitter {
+  background-color: #55acee;
 }
 
 .btn {
   padding: 12px 24px;
-  warna putih;
+  color: white;
   display: inline-block;
-  opacity: 0,8;
-  batas-jari-jari: 4px;
-  perataan teks: tengah;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
 }
 
-.btn: hover {
+.btn:hover {
   opacity: 1;
 }
 
@@ -80,122 +80,122 @@ Sebuah {
   margin-right: 5px;
 }
 
-tajuk {
-  tinggi: 65px;
-  lebar: 100%;
-  warna latar: rgba (34, 49, 52, 0.9);
-  posisi: tetap;
-  atas: 0;
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
   z-index: 10;
 }
 
 .logo {
-  lebar: 124px;
+  width: 124px;
   margin-top: 20px;
 }
 
 .header-left {
-  mengapung: kiri;
+  float: left;
 }
 
 .header-right {
-  mengapung: benar;
+  float: right;
   margin-right: -25px;
 }
 
 .header-right a {
-  garis-tinggi: 65px;
+  line-height: 65px;
   padding: 0 25px;
-  warna putih;
-  display: blok;
-  mengapung: kiri;
-  transisi: semua 0,5s;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
-.header-right a: hover {
-  warna latar: rgba (255, 255, 255, 0.3);
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu-icon {
-  warna putih;
-  mengapung: benar;
-  ukuran font: 25px;
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
   padding: 21px 0;
-  display: tidak ada;
+  display: none;
 }
 
 .lesson-wrapper {
   padding-bottom: 80px;
-  padding-kiri: 5%;
+  padding-left: 5%;
   padding-right: 5%;
-  warna latar: # f7f7f7;
-  perataan teks: tengah;
+  background-color: #f7f7f7;
+  text-align: center;
 }
 
-. menuju {
+.heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  warna: # 5f5d60;
+  color: #5f5d60;
 }
 
-. menuju h2 {
+.heading h2 {
   font-weight: normal;
 }
 
 .lesson {
-  mengapung: kiri;
-  lebar: 25%;
+  float: left;
+  width: 25%;
 }
 
 .lesson-icon {
-  posisi: relatif;
+  position: relative;
 }
 
 .lesson-icon p {
-  posisi: absolut;
-  atas: 44%;
-  lebar: 100%;
-  warna putih;
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
 }
 
-.text-content {
-  lebar: 80%;
+.text-contents {
+  width: 80%;
   display: inline-block;
   margin-top: 15px;
-  ukuran font: 15px;
-  warna: # b3aeb5;
+  font-size: 15px;
+  color: #b3aeb5;
 }
 
-. menuju h3 {
+.heading h3 {
   font-weight: normal;
 }
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
-  perataan teks: tengah;
+  text-align: center;
 }
 
 .message {
   padding: 15px 40px;
-  warna latar: # 5dca88;
-  kursor: pointer;
-  box-shadow: 0 7px # 1a7940;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
 }
 
-. pesan: aktif {
-  posisi: relatif;
-  atas: 7px;
-  bayangan kotak: tidak ada;
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 footer img {
-  lebar: 125px;
+  width: 125px;
 }
 
 footer p {
-  warna: # b3aeb5;
-  ukuran font: 12px;
+  color: #b3aeb5;
+  font-size: 12px;
 }
 
 footer {
